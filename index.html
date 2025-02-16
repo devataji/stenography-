@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="stno.js" defer></script>
+</head>
+<body>
+    <h1>Steganography - Hide and Reveal Messages in Images</h1>
+
+   
+    <input type="file" id="imageInput" accept="image/*">
+    <br><br>
+
+    <!-- Text area for encoding and decoding messages -->
+    <textarea id="messageInput" placeholder="Enter message to encode" rows="4" cols="50"></textarea>
+    <br><br>
+    <button id="encodeButton">Encode Message</button>
+    <br><br>
+
+    <canvas id="canvas" style="display: none;"></canvas>
+    <br><br>
+
+    <button id="decodeButton">Decode Message</button>
+    <br><br>
+
+    <h3>Decoded Message:</h3>
+    <p id="decodedMessage"></p>
+</body>
+</html>
