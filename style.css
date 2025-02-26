@@ -43,3 +43,14 @@ button:hover {
     max-width: 100%;
     margin-top: 20px;
 }
+#decodedMessage {
+    background-color: #fff;
+    color: #111D4A;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    min-height: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    word-wrap: break-word;}
+
